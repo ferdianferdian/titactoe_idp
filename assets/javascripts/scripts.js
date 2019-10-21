@@ -63,15 +63,12 @@ function setSqrT(idx){
 }
 function clickbtn(idx) {
     if(document.tic['sqr'+idx].value == '   ' && turn == 0 && mode == 1) {
-        console.log('ini 1')
         document.tic['sqr'+idx].value = ' X '; setSqrT(idx); turn = 1; vari(); check();
     }
     else if(document.tic['sqr'+idx].value == '   ' && turn == 1 && mode == 2) {
         document.tic['sqr'+idx].value = ' X '; setSqrT(idx); turn = 0; vari(); player1Check()
-        console.log('ini 2');
     }
     else if(document.tic['sqr'+idx].value == '   ' && turn == 0 && mode == 2) {
-        console.log('ini 3');
         document.tic['sqr'+idx].value = ' O '; setSqrT(idx); turn = 1; vari(); player1Check()
     }
     drawCheck()
