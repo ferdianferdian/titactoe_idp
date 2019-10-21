@@ -60,11 +60,6 @@ h1 {
     height: 150px;
     border: 2px solid #00578a;
 }
-span {
-    font-size: 124px;
-    color: white;
-    text-align: center;
-}
 
 input[type=button] {
     cursor: pointer;
